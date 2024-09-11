@@ -67,27 +67,6 @@ public class Player : MonoBehaviour
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             anim.SetTrigger("jump");
-            //stats.UserHealth(10);
         }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log("Hit Something");
-    }
-
-    private void OnCollisionExit(Collision collision)
-    {
-        Debug.Log("Stopped Hitting Something");
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("Entered Trigger");
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        Debug.Log("Exit Trigger");
     }
 }
