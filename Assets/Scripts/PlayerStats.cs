@@ -10,7 +10,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] Stat currentHealth;
     //[SerializeField] bool decreaseHealth;
 
-    float timeToDecrease = 1.0f;
+    //float timeToDecrease = 1.0f;
 
     // Start is called before the first frame update
     void Start()
